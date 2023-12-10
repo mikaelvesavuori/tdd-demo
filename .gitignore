@@ -1,0 +1,21 @@
+# Files
+.env
+.dccache
+.DS_Store
+standardlint.json
+standardlint.results.json
+
+# Folders
+node_modules/
+lib/
+dist/
+docs/
+coverage/
+jest-coverage/
+.webpack/
+.esbuild/
+.serverless/
+
+# Diagrams
+**/*.bkp
+**/*.bak

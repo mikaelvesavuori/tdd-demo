@@ -1,0 +1,42 @@
+{
+  "name": "tdd-demo",
+  "description": "Test-driven development demo starter to build a DynamoDB item size calculator.",
+  "version": "1.0.0",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx c8 -reporter=lcov ava --watch",
+    "test": "npx c8 -reporter=lcov ava"
+  },
+  "devDependencies": {
+    "@ava/typescript": "4",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "6",
+    "@typescript-eslint/parser": "6",
+    "ava": "6",
+    "c8": "8",
+    "eslint": "8",
+    "eslint-config-prettier": "9",
+    "eslint-plugin-prettier": "5",
+    "prettier": "3",
+    "ts-node": "latest",
+    "typescript": "5"
+  },
+  "ava": {
+    "typescript": {
+      "rewritePaths": {
+        "src/": "dist/"
+      },
+      "compile": "tsc"
+    },
+    "watchMode": {
+      "ignoreChanges": [
+        "coverage",
+        "lib"
+      ]
+    },
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
