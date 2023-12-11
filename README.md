@@ -28,7 +28,7 @@ Extra credit features:
 
 ## Some ideas to start you off
 
-Here's a basic starting point if you're lost.
+Here's a basic starting point if you're lost. Note that for the actual solution you'll want to use the `byte` function provided.
 
 The source file, `src/DynamoDbItemSize.ts`:
 
