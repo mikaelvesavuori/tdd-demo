@@ -21,7 +21,6 @@ Some resources for you:
 
 Extra credit features:
 
-- DynamoDB item size in bytes, _after_ having removed the type keys (e.g. `S`, `N`, `SN`...)
 - Warn about "longish" attribute names (over 10 characters)
 - RCU consumption (eventual and strong consistencies + as part of transactional)
 - WCU consumption (eventual and strong consistencies + as part of transactional)
